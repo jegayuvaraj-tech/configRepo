@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: orderService
+
+order:
+  service:
+    url: http://host.docker.internal:8082
